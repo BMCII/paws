@@ -9,10 +9,11 @@ $blue: #2980B9;
 $red: #E74C3C;
 $dark_blue:#2C3E50;
 $white: #ecf0f1;
-$body-color: $white;
+$body-color:$white;
 $navbar-light-color:$white;
 $navbar-light-hover-color:$blue;
 $navbar-light-active-color: $red;
+$block-color:dark_blue;
 
 // font
 $font-family-sans-serif:      'Permanent Marker', cursive;
@@ -20,7 +21,7 @@ $font-family-monospace:       'Roboto', sans-serif;
 $font-family-base:            $font-family-sans-serif;
 
 body{
-  color:$white;
+  background-image: url('../images/funky-lines.png')
 }
 .jumbotron{
   width:100%;
@@ -33,6 +34,17 @@ body{
 }
 
 
+.background{
+  background:$dark_blue;
+  margin: 1em;
+}
 
+#jerry{
+  background-image: url('../images/gerry_looking_blur.jpg');
+}
+
+p{
+  padding: 1em;
+}
 
 @import "scss/bootstrap";

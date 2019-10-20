@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto&display=swap");
 body {
-  color: #ecf0f1;
+  background-image: url("../images/funky-lines.png");
 }
 
 .jumbotron {
@@ -11,6 +11,18 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.background {
+  background: #2C3E50;
+}
+
+#jerry {
+  background-image: url("../images/gerry_looking_blur.jpg");
+}
+
+p {
+  padding: 1em;
 }
 
 /*!
