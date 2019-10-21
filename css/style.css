@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto&display=swap");
-body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#E74C3C), to(#2C3E50));
-  background-image: linear-gradient(#E74C3C, #2C3E50);
-}
-
 .jumbotron {
   width: 100%;
   height: 500px;
@@ -12,10 +7,18 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: 0rem;
+  padding-top: 0%;
 }
 
-.background {
-  background: #2C3E50;
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#E74C3C), to(#2C3E50));
+  background: linear-gradient(#E74C3C, #2C3E50);
+  margin-left: 2em;
+}
+
+.card-body {
+  background-color: #2C3E50;
 }
 
 .row {
@@ -29,17 +32,15 @@ body {
 #jerry {
   background-image: url("../images/gerry_looking_blur.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.page-footer {
-  background: #2C3E50;
+  background-position: left;
 }
 
 p {
   padding: 1em;
+}
+
+.page-footer {
+  margin-top: 10rem;
 }
 
 /*!

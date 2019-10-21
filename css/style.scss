@@ -16,57 +16,64 @@ $navbar-light-active-color: $red;
 $block-color:dark_blue;
 
 // font
-$font-family-sans-serif:      'Permanent Marker', cursive;
-$font-family-monospace:       'Roboto', sans-serif;
-$font-family-base:            $font-family-sans-serif;
+$font-family-sans-serif: 'Permanent Marker',
+cursive;
+$font-family-monospace: 'Roboto',
+sans-serif;
+$font-family-base: $font-family-sans-serif;
 
-// body{
-//   background-image: url('../images/funky-lines.png')
-  
-// }
 
-body{
-  background-image: linear-gradient($red, $dark_blue);
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  background: url('../images/vader_hadrian_flip_blur.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0rem;
+  padding-top: 0%;
+}
+
+body {
+  background: linear-gradient($red, $dark_blue);
+  margin-left: 2em;
 }
 
 
-.jumbotron{
-  width:100%;
-    height:500px;
-    background: url('../images/vader_hadrian_flip_blur.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
+.card-body {
+  background-color: $dark_blue;
 }
 
 
-.background{
-  background:$dark_blue;
-}
 
-.row{
+.row {
   margin: 1em;
+
 }
 
-.col{
+.col {
   margin-right: 1em;
 }
 
-#jerry{
+
+
+
+#jerry {
   background-image: url('../images/gerry_looking_blur.jpg');
   background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
+  background-position: left;
+  // background-size: cover;
+  // background-attachment: fixed;
 }
 
-.page-footer{
-  background:$dark_blue;
-}
 
-p{
+p {
   padding: 1em;
+}
+
+.page-footer {
+  margin-top: 10rem;
 }
 
 @import "scss/bootstrap";
