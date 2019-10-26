@@ -16,11 +16,11 @@ $navbar-light-active-color: $red;
 $block-color:dark_blue;
 
 // font
-$font-family-sans-serif: 'Permanent Marker',
+$font-family-sans-serif: 'Roboto',
 cursive;
-$font-family-monospace: 'Roboto',
+$font-family-monospace: 'Permanent Marker',
 sans-serif;
-$font-family-base: $font-family-sans-serif;
+// $font-family-base: $font-family-sans-serif;
 
 
 .jumbotron {
@@ -35,9 +35,18 @@ $font-family-base: $font-family-sans-serif;
   padding-top: 0%;
 }
 
+.background_image{
+   
+   z-index: -100;
+}
+
 body {
-  background: linear-gradient($red, $dark_blue);
+  background: linear-gradient(rgba($red,.50), $dark_blue);
   margin-left: 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-family-monospace
 }
 
 
@@ -56,16 +65,18 @@ body {
   margin-right: 1em;
 }
 
-
-
-
-#jerry {
-  background-image: url('../images/gerry_looking_blur.jpg');
-  background-repeat: no-repeat;
-  background-position: left;
-  // background-size: cover;
-  // background-attachment: fixed;
+.top {
+  position: absolute;
+  top: 0;
 }
+
+// #jerry {
+//   background-image: url('../images/gerry_looking_blur.jpg');
+//   background-repeat: no-repeat;
+//   background-position: left;
+//   // background-size: cover;
+//   // background-attachment: fixed;
+// }
 
 
 p {

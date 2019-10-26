@@ -11,10 +11,18 @@
   padding-top: 0%;
 }
 
+.background_image {
+  z-index: -100;
+}
+
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#E74C3C), to(#2C3E50));
-  background: linear-gradient(#E74C3C, #2C3E50);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 76, 60, 0.5)), to(#2C3E50));
+  background: linear-gradient(rgba(231, 76, 60, 0.5), #2C3E50);
   margin-left: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Permanent Marker", sans-serif;
 }
 
 .card-body {
@@ -29,10 +37,9 @@ body {
   margin-right: 1em;
 }
 
-#jerry {
-  background-image: url("../images/gerry_looking_blur.jpg");
-  background-repeat: no-repeat;
-  background-position: left;
+.top {
+  position: absolute;
+  top: 0;
 }
 
 p {
@@ -76,8 +83,8 @@ p {
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Permanent Marker", cursive;
-  --font-family-monospace: "Roboto", sans-serif;
+  --font-family-sans-serif: "Roboto", cursive;
+  --font-family-monospace: "Permanent Marker", sans-serif;
 }
 
 *,
@@ -100,7 +107,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto", cursive;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -227,7 +234,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: "Roboto", sans-serif;
+  font-family: "Permanent Marker", sans-serif;
   font-size: 1em;
 }
 
@@ -6368,7 +6375,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto", cursive;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6481,7 +6488,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Roboto", cursive;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -10296,7 +10303,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Permanent Marker", sans-serif !important;
 }
 
 .text-justify {
