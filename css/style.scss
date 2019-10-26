@@ -35,17 +35,22 @@ sans-serif;
   padding-top: 0%;
 }
 
-.background_image{
-   
-   z-index: -100;
+.background_image {
+
+  z-index: -100;
 }
 
 body {
-  background: linear-gradient(rgba($red,.50), $dark_blue);
-  margin-left: 2em;
+  background: linear-gradient(rgba($red, .50), $dark_blue);
+  // margin-left: 2em;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-family-monospace
 }
 

@@ -18,10 +18,14 @@
 body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(231, 76, 60, 0.5)), to(#2C3E50));
   background: linear-gradient(rgba(231, 76, 60, 0.5), #2C3E50);
-  margin-left: 2em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Permanent Marker", sans-serif;
 }
 
@@ -127,7 +131,12 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
